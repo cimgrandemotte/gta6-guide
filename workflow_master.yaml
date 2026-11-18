@@ -1,0 +1,92 @@
+project: GTA VI — The Ultimate Guide
+version: 1
+language: fr
+current_state: S7_done_publiable
+status: publiable_pending_publication
+rules:
+  - Rechercher des sources actuelles à chaque étape et dater les vérifications.
+  - Distinguer faits officiels, informations rapportées, rumeurs et données indisponibles ; ne jamais inventer.
+  - Site non officiel ; identifier les illustrations générées et respecter les droits des tiers.
+  - Ne créer ni ZIP ni PDF ; images générées en JPG et audio en MP3 uniquement.
+  - Maximum par réponse : 10 images et 10 fichiers audio.
+  - Demander CONTINUER entre les étapes et entre chaque groupe de trois pages en S4.
+  - Les actualités ne sont en temps réel que si une source et un mécanisme de mise à jour réels sont disponibles.
+  - Ne pas prétendre générer de musique ou d'ambiances sonores avec un outil limité à la parole.
+states:
+  S0:
+    name: INIT
+    tasks: [Créer ce workflow, initialiser les dossiers et les fichiers racine, vérifier la structure, recherche initiale]
+    checkpoint: Structure initiale vérifiée
+    next: S1
+  S1:
+    name: RESEARCH
+    depends_on: [S0]
+    tasks: [Consulter les sources disponibles, documenter les sources et dates, compiler research_data.json, distinguer les informations non confirmées]
+    checkpoint: Données sourcées et limites consignées
+    next: S2
+  S2:
+    name: DESIGN_SYSTEM
+    depends_on: [S1]
+    tasks: [Créer les tokens et composants CSS et JS, générer jusqu'à 10 illustrations JPG, évaluer les possibilités audio]
+    checkpoint: Design et ressources vérifiés
+    next: S3
+  S3:
+    name: BUILD_CORE_PAGES
+    depends_on: [S1, S2]
+    tasks: [Construire accueil, navigation, pied de page et layout, intégrer les ressources disponibles]
+    checkpoint: Accueil fonctionnel et responsive
+    next: S4
+  S4:
+    name: BUILD_CONTENT_PAGES
+    depends_on: [S1, S2, S3]
+    tasks: [Construire les pages et sous-pages demandées par groupes de trois, signaler les données indisponibles, générer les ressources dans les limites]
+    checkpoint: Liens et contenu de chaque groupe vérifiés
+    next: S5
+  S5:
+    name: INTERACTIVE_FEATURES
+    depends_on: [S3, S4]
+    tasks: [Carte, filtres, recherche, quiz, comparateurs et checklist selon données fiables disponibles]
+    checkpoint: Interactions clavier et données vérifiées
+    next: S6
+  S6:
+    name: QA_AND_POLISH
+    depends_on: [S5]
+    tasks: [Tests responsive, liens, accessibilité, SEO et performances, corrections]
+    checkpoint: Résultats et limites de tests documentés
+    next: S7
+  S7:
+    name: FINAL_DELIVERY
+    depends_on: [S6]
+    tasks: [README, crédits, arborescence, instructions Vercel Netlify GitHub Pages et téléchargement]
+    checkpoint: Livraison vérifiée
+    next: null
+page_dependencies:
+  all_pages: [design_system, shared_navigation, shared_footer, sourced_research]
+  homepage: [characters, regions, news, official_trailer]
+  map: [regions, verified_locations]
+  weapons: [verified_weapons]
+  vehicles: [verified_vehicles]
+  story: [verified_story_and_missions]
+  quiz: [verified_research]
+  search: [published_pages]
+  completion_checklist: [verified_completion_requirements]
+  news: [dated_sources, update_mechanism_if_live]
+completed_states: [S0, S1, S2, S3, S4]
+last_checkpoint: S4 terminé : 14 sous-pages (histoire, personnages, carte, armes, véhicules, gameplay, guide, online, collectibles, secrets, éditions, musique, actualités, quiz) ; attente CONTINUER pour S5 (interactions).
+
+# S5 (interactions) : terminé 2026-11-18 — recherche globale, filtres, carte conceptuelle, checklist persistante. En attente de CONTINUER pour S6 (QA).
+
+# S6 (QA) : terminé 2026-11-18 — liens, accessibilité axe-core 0 violation, responsive, SEO de base (canonique, sitemap, robots). Reste : domaine réel via scripts/build_seo.py avant S7.
+
+# S7 (livraison) : terminé 2026-11-18 — README, DEPLOIEMENT.md, 404.html, .nojekyll, scripts npm. Reste à l’utilisateur : domaine réel (build_seo.py) et publication.
+
+# Reprise 2026-11-18 (après CONTINUER) : images de référence Girardi ES9, Klose K17, Hawk & Little Morgan intégrées (page Armes) ; carte confirmée par Newswire 3 nov. (page Guide corrigée) ; veille YouTube/GitHub/Reddit/réseaux ajoutée (page Guide, research_data.json). Contrôles : check_media OK (26 images), axe 0 violation, e2e sans erreur, liens OK. Reste : fusil Mount Kalaga, radios, personnages, collectibles, secrets, éditions sans image vérifiée.
+
+# Reprise 2 (CONTINUER du 2026-11-18) : images Brian Heder (personnages) et logo Afro Bank FM (musique) intégrés ; veille Guide complétée (mises à jour 1.002.000 et 01.002.001 sans notes officielles, live YouTube 19 nov., conseils argent non confirmés). Contrôles : 28 images OK, axe 0, e2e sans erreur, 0 lien cassé. Restent sans image vérifiée : fusil Mount Kalaga, radios Back Country / Flash FM / Dirty South Classics / The Chamber, Cal Hampton, Boobie Ike, Dre'Quan Priest (fiche non ajoutée), Raul Bautista, éditions, collectibles, secrets, régions.
+
+# Reprise 3 (CONTINUER) : encadrés « Image non disponible » ajoutés (armes, radios, personnages, éditions, collectibles, secrets, carte) ; veille police ajoutée au guide. 28 images OK, axe 0, e2e sans erreur, liens OK. Reste S7 : domaine réel (scripts/build_seo.py), puis publication par l’utilisateur.
+
+# S7 (livraison) : domaine https://gta6-guide.duckdns.org/ (GitHub Pages). build_seo.py exécuté pour ce domaine ; CNAME créé ; DEPLOIEMENT.md et README complétés (limite DuckDNS : A/TXT seulement, une IP). Publication par l’utilisateur (push GitHub non effectué : connecteur GitHub indisponible dans la session).
+# Reprise 5 : vérification d'actualité (aucun report annoncé) ; mention « pas de version PC au lancement » ajoutée au guide.
+
+# Finalisation 2026-11-18 : mise à jour PS5 (Sony) et critiques corrigées dans le guide ; audios inutilisés retirés (1 conservé) ; 4 visuels IA étiquetés « Visuel IA, non officiel » (régions Grassrivers, Port Gellhorn, Ambrosia et airboat). QA : médias 42/42, axe 0, e2e 15 pages, liens 0. Reste : push GitHub et publication par l’utilisateur.

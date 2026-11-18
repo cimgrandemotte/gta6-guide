@@ -1,0 +1,1 @@
+@media(max-width:900px){.site-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.container{width:min(calc(100% - 32px),var(--width))}.site-grid{grid-template-columns:1fr}.section{padding-block:58px}}

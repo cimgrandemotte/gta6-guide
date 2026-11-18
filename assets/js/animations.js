@@ -1,0 +1,2 @@
+/* Add visible entrance effects only if the user has not requested reduced motion. */
+export function initReveal(root=document){const nodes=root.querySelectorAll('[data-reveal]');if(matchMedia('(prefers-reduced-motion: reduce)').matches||!('IntersectionObserver'in window))return;const observer=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){entry.target.classList.add('reveal');observer.unobserve(entry.target)}},{threshold:.12});nodes.forEach(node=>observer.observe(node));}

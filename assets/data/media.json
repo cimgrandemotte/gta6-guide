@@ -1,0 +1,177 @@
+{
+  "regle": "Chaque image du site apparaît une seule fois (contrôle : python3 scripts/check_media.py). Les balises og:image ont été retirées pour éviter tout doublon.",
+  "generees_ia": "Toutes les images dans assets/images/ hors reference/ sont générées par IA (JPG, non officielles, légendées comme telles).",
+  "reference": [
+    {
+      "file": "assets/images/reference/vehicle_vapid_stanier_01.jpg",
+      "sujet": "’55 Vapid Stanier (pack Vintage Vice City)",
+      "source": "https://gta.tech4gamers.com/gta-6/vehicles/55-vapid-stanier/",
+      "statut": "présentée comme capture officielle par la presse ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/vehicle_vapid_ganado_01.jpg",
+      "sujet": "Vapid Ganado (Retro Build)",
+      "source": "https://gta.tech4gamers.com/gta-6/vehicles/vapid-ganado/",
+      "statut": "présentée comme capture officielle par la presse ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/vehicle_grotti_cheetah_01.jpg",
+      "sujet": "’95 Grotti Cheetah",
+      "source": "https://leonidainteractive.com/wiki/vehicles/grotti-cheetah/",
+      "statut": "capture in-game partagée par un wiki ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/vehicle_vapid_dominator_buggy_01.jpg",
+      "sujet": "’67 Vapid Dominator Buggy",
+      "source": "https://www.dexerto.com/wikis/gta-6/vehicles/cars/67-vapid-dominator-buggy/",
+      "statut": "fiche wiki ; à vérifier en jeu"
+    },
+    {
+      "file": "assets/images/reference/vehicle_crest_kayak_01.jpg",
+      "sujet": "Crest Kayak",
+      "source": "https://www.reddit.com/r/GTA/comments/1uen24b/the_ultimate_edition_screenshots_show_the_crest/",
+      "statut": "capture partagée sur Reddit ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/radio_cocoteo_fm_01.jpg",
+      "sujet": "Logo Cocoteo FM",
+      "source": "https://gta6radio.live/stations/cocoteo-fm",
+      "statut": "logo de station ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/character_jason_lucia_artwork_01.jpg",
+      "sujet": "Illustration promotionnelle Jason et Lucia",
+      "source": "https://creativeuncut.com/gallery-49/gta6-jason-duval-and-lucia-caminos-artwork.html",
+      "statut": "galerie fan ; droits et origine à vérifier"
+    },
+    {
+      "file": "assets/images/reference/weapon_girardi_es9_01.jpg",
+      "sujet": "Girardi ES9 tenu par Jason, près d’une moto Principe Alvino V1",
+      "source": "https://gtadb.net/gta-6/weapons/girardi-es9-gta-6/",
+      "statut": "identification communautaire (GTADB) du modèle ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/weapon_hawk_little_morgan_01.jpg",
+      "sujet": "Revolvers Hawk et Little Morgan (édition Ultimate)",
+      "source": "https://gta.tech4gamers.com/gta-6/weapons/hawk-little-morgan-revolvers/",
+      "statut": "présentée comme capture officielle par la presse ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/character_brian_heder_art_01.jpg",
+      "sujet": "Brian Heder, artwork de personnage",
+      "source": "https://leonidainteractive.com/wiki/characters/brian-heder",
+      "statut": "artwork présenté comme officiel (wiki) ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/radio_afro_bank_fm_01.jpg",
+      "sujet": "Logo de la station Afro Bank FM",
+      "source": "https://www.rockstargames.com/VI/music/embed/afrobank/visual",
+      "statut": "visuel de la page officielle Rockstar (embed) ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/character_raul_bautista_art_01.jpg",
+      "sujet": "Raul Bautista, artwork de personnage",
+      "source": "https://leonidainteractive.com/wiki/characters/raul-bautista",
+      "statut": "artwork présenté comme officiel (wiki) ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/character_boobie_ike_art_01.jpg",
+      "sujet": "Boobie Ike, artwork de personnage",
+      "source": "https://gta6index.com/database/characters/boobie-ike/",
+      "statut": "artwork de base de données fan ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/radio_flash_fm_01.jpg",
+      "sujet": "Logo de la station Flash FM",
+      "source": "https://www.rockstarmag.fr/gta-6-premier-apercu-des-radios-du-jeu-avec-bad-bunny-lana-del-rey-ou-encore-robyn-et-trois-nouveaux-screenshots/",
+      "statut": "visuel publié par un site de presse ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/character_cal_hampton_portrait_01.jpg",
+      "sujet": "Cal Hampton, portrait",
+      "source": "https://gta.wiki/w/Cal_Hampton",
+      "statut": "image officielle présentée par le wiki ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/character_dre_quan_priest_portrait_01.jpg",
+      "sujet": "Dre’Quan Priest, portrait",
+      "source": "https://gta.wiki/w/Dre%27Quan_Priest",
+      "statut": "image officielle présentée par le wiki ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/radio_back_country_01.jpg",
+      "sujet": "Logo Back Country Radio",
+      "source": "https://gta.wiki/w/Back_Country_Radio",
+      "statut": "logo présenté par le wiki ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/radio_dirty_south_classics_01.jpg",
+      "sujet": "Logo Dirty South Classics",
+      "source": "https://gta.wiki/w/Dirty_South_Classics",
+      "statut": "logo présenté par le wiki ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/radio_the_chamber_01.jpg",
+      "sujet": "Logo The Chamber 106.6",
+      "source": "https://gta.wiki/w/The_Chamber_106.6",
+      "statut": "logo présenté par le wiki ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/place_one_eyed_willies_01.jpg",
+      "sujet": "One-Eyed Willie’s, atelier",
+      "source": "https://gta.wiki/w/One-Eyed_Willie%27s",
+      "statut": "image du wiki ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/place_rideout_customs_01.jpg",
+      "sujet": "Rideout Customs, atelier",
+      "source": "https://gta.wiki/w/Rideout_Customs",
+      "statut": "image du wiki, enseigne partiellement visible ; à vérifier"
+    },
+    {
+      "file": "assets/images/reference/weapon_klose_k17_official_01.jpg",
+      "sujet": "Klose K17, variante Ultimate Edition",
+      "source": "https://gta.wiki/w/K17",
+      "statut": "capture officielle présentée par le wiki ; à vérifier"
+    }
+  ],
+  "non_trouvees": [
+    "Fusil de Mount Kalaga (Only in Leonida) : captures trouvées trop petites (300 px), non utilisées",
+    "Régions : aucune image de référence intégrée",
+    "Collectibles, secrets : aucun élément officiel à illustrer",
+    "Fusil de Mount Kalaga : captures trop petites"
+  ],
+  "encadres_image_non_disponible": [
+    "armes (fusil)",
+    "editions",
+    "collectibles",
+    "secrets",
+    "carte"
+  ],
+  "generees": [
+    {
+      "file": "assets/images/map/region_grassrivers_ai_01.jpg",
+      "sujet": "Région Grassrivers",
+      "source": "Génération IA",
+      "statut": "Visuel IA, non officiel"
+    },
+    {
+      "file": "assets/images/map/region_port_gellhorn_ai_01.jpg",
+      "sujet": "Région Port Gellhorn",
+      "source": "Génération IA",
+      "statut": "Visuel IA, non officiel"
+    },
+    {
+      "file": "assets/images/map/region_ambrosia_ai_01.jpg",
+      "sujet": "Région Ambrosia",
+      "source": "Génération IA",
+      "statut": "Visuel IA, non officiel"
+    },
+    {
+      "file": "assets/images/vehicles/airboat_grassrivers_ai_01.jpg",
+      "sujet": "Airboat, Grassrivers",
+      "source": "Génération IA",
+      "statut": "Visuel IA, non officiel"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "gta6-ultimate-guide",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Guide fan non officiel GTA VI",
+  "scripts": {
+    "dev": "python3 -m http.server 8080 --bind 0.0.0.0",
+    "build:index": "python3 scripts/build_search_index.py",
+    "build:seo": "python3 scripts/build_seo.py",
+    "build": "python3 scripts/build_search_index.py"
+  }
+}

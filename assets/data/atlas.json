@@ -1,0 +1,20 @@
+{
+  "note": "Positions indicatives sur l’image conceptuelle générée par IA. Ce ne sont pas des coordonnées de jeu. Seules les six régions et le lieu Allied Crystal sont positionnés ; les autres lieux restent dans la liste.",
+  "regions": [
+    {"id":"vice-city","name":"Vice City","status":"official","x":66,"y":34,"desc":"La ville principale : plages, vie nocturne, port et quartiers denses.","details":"Quartiers nommés par Rockstar : Ocean Beach, Little Cuba, le marché aux puces Tisha-Wocka et VC Port.","tagline":"Everything in Excess","source":"Rockstar — Only in Leonida","sourceUrl":"https://www.rockstargames.com/VI/only-in-leonida","anchor":"#region-vice-city"},
+    {"id":"leonida-keys","name":"Leonida Keys","status":"official","x":87,"y":68,"desc":"Un archipel tropical. Rockstar y situe la vie de Jason, qui y travaille pour des trafiquants locaux.","details":"","tagline":"Gateway to Paradise","source":"Rockstar — Only in Leonida","sourceUrl":"https://www.rockstargames.com/VI/only-in-leonida","anchor":"#region-keys"},
+    {"id":"grassrivers","name":"Grassrivers","status":"official","x":22,"y":72,"desc":"Mangroves, alligators et prédateurs plus dangereux, dans un décor de marécages.","details":"","tagline":"Welcome to the Wetlands","source":"Rockstar — Only in Leonida","sourceUrl":"https://www.rockstargames.com/VI/only-in-leonida","anchor":"#region-grassrivers"},
+    {"id":"port-gellhorn","name":"Port Gellhorn","status":"official","x":76,"y":50,"desc":"Une ancienne station balnéaire faite de motels bon marché et de centres commerciaux abandonnés, avec un port encore actif.","details":"","tagline":"Live Hard","source":"Rockstar — Only in Leonida","sourceUrl":"https://www.rockstargames.com/VI/only-in-leonida","anchor":"#region-port"},
+    {"id":"ambrosia","name":"Ambrosia","status":"official","x":36,"y":44,"desc":"Ville industrielle dominée par une raffinerie de sucre, Allied Crystal, et par une bande de motards locale.","details":"","tagline":"Keeping Leonida Sweet","source":"Rockstar — Only in Leonida","sourceUrl":"https://www.rockstargames.com/VI/only-in-leonida","anchor":"#region-ambrosia"},
+    {"id":"mount-kalaga","name":"Mount Kalaga","status":"official","x":14,"y":20,"desc":"Parc national au nord de l’État, avec chasse, pêche et pistes hors route.","details":"","tagline":"Wild, Wild Country","source":"Rockstar — Only in Leonida","sourceUrl":"https://www.rockstargames.com/VI/only-in-leonida","anchor":"#region-kalaga"}
+  ],
+  "places": [
+    {"id":"penitentiary","name":"Leonida Penitentiary","region":null,"status":"official","desc":"Prison où Lucia a été détenue. Région non précisée.","source":"Tableau des lieux de la page Carte","sourceUrl":null},
+    {"id":"allied-crystal","name":"Allied Crystal Sugar Refinery","region":"ambrosia","status":"official","desc":"Principal employeur de la ville d’Ambrosia.","source":"Rockstar — Only in Leonida","sourceUrl":"https://www.rockstargames.com/VI/only-in-leonida"},
+    {"id":"watson-bay","name":"Watson Bay","region":null,"status":"press","desc":"Nom relayé par les pages de boutique et les guides ; rôle à vérifier en jeu.","source":"Presse et guides (non confirmé par Rockstar)","sourceUrl":null},
+    {"id":"gambit-bay","name":"Gambit Bay","region":null,"status":"press","desc":"Nom relayé par les pages de boutique et les guides ; rôle à vérifier en jeu.","source":"Presse et guides (non confirmé par Rockstar)","sourceUrl":null},
+    {"id":"lake-leonida","name":"Lake Leonida","region":null,"status":"press","desc":"Nom relayé par les pages de boutique et les guides ; rôle à vérifier en jeu.","source":"Presse et guides (non confirmé par Rockstar)","sourceUrl":null},
+    {"id":"washington-beach","name":"Washington Beach","region":null,"status":"press","desc":"Nom relayé par des guides ; la région n’est pas précisée par Rockstar.","source":"Guides (non confirmé par Rockstar)","sourceUrl":null},
+    {"id":"shore-drive","name":"Shore Drive","region":null,"status":"press","desc":"Nom relayé par des guides ; la région n’est pas précisée par Rockstar.","source":"Guides (non confirmé par Rockstar)","sourceUrl":null}
+  ]
+}

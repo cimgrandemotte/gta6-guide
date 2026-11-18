@@ -1,0 +1,864 @@
+{
+  "metadata": {
+    "date_recherche": "2026-11-18",
+    "fuseau": "Europe/Paris",
+    "perimetre": "Recherche ponctuelle avant lancement local ; évolutions possibles selon fuseau et heure",
+    "exhaustivite": "Non garantie : les sources indexées, les vidéos sans transcription et les accès aux réseaux sont incomplets ; aucun test personnel du jeu.",
+    "statuts": [
+      "officiel",
+      "rapporte",
+      "non_verifie",
+      "inconnu",
+      "conseil_general"
+    ],
+    "notes": [
+      "Une affirmation contenue dans un guide fan, un leak ou une vidéo n’est pas automatiquement confirmée.",
+      "Une date de publication le 18 novembre ne suffit pas à établir que le contenu était disponible au moment exact de consultation.",
+      "La page française du Store expose les deux listes en texte brut sans toujours permettre d’interpréter les coches ; croiser avec la page éditions."
+    ]
+  },
+  "sources": [
+    {
+      "id": "official_site",
+      "titre": "Rockstar — page officielle",
+      "url": "https://www.rockstargames.com/VI",
+      "type": "officiel",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "official_characters",
+      "titre": "Rockstar — personnages et régions",
+      "url": "https://www.rockstargames.com/VI/only-in-leonida",
+      "type": "officiel",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "official_store",
+      "titre": "Rockstar Store France",
+      "url": "https://store.rockstargames.com/fr/game/buy-gta-vi",
+      "type": "officiel",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "official_editions",
+      "titre": "Rockstar — éditions",
+      "url": "https://www.rockstargames.com/VI/editions",
+      "type": "officiel",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "official_preload",
+      "titre": "Rockstar — préchargement, 10 novembre 2026",
+      "url": "https://www.rockstargames.com/newswire/article/89834o94713o21",
+      "type": "officiel",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "official_trailer",
+      "titre": "Rockstar — bande-annonce de lancement, 15 octobre 2026",
+      "url": "https://www.rockstargames.com/newswire/article/517572321a549a/watch-the-grand-theft-auto-vi-launch-trailer",
+      "type": "officiel",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "official_music",
+      "titre": "Rockstar — musique et radios",
+      "url": "https://www.rockstargames.com/VI/music",
+      "type": "officiel",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "official_extended",
+      "titre": "Rockstar — annonce An Extended Look",
+      "url": "https://rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look",
+      "type": "officiel",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "fr_guide",
+      "titre": "GTA6 Guide",
+      "url": "https://gta6guide.fr/",
+      "type": "communautaire",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "fr_wiki",
+      "titre": "GTA 6 Wiki FR",
+      "url": "https://gta-6-wiki.com/fr/",
+      "type": "communautaire",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "actu",
+      "titre": "ActuGaming — guide et FAQ",
+      "url": "https://www.actugaming.net/gta-6-guide-complet-832971/",
+      "type": "presse",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "bible",
+      "titre": "GTA6 Bible — wiki",
+      "url": "https://gta6bible.com/wiki/",
+      "type": "communautaire",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "grandtheft",
+      "titre": "GrandTheft.gg — guides",
+      "url": "https://grandtheft.gg/",
+      "type": "communautaire",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "beginner",
+      "titre": "GrandTheft.gg — conseils débutants",
+      "url": "https://grandtheft.gg/gta-6-beginner-guide/",
+      "type": "communautaire",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "explained",
+      "titre": "GTA 6 Explained",
+      "url": "https://gta6explained.com/",
+      "type": "communautaire",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "map_state",
+      "titre": "Leonida State — carte",
+      "url": "https://leonidastate.guide/map",
+      "type": "communautaire",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "map_verse",
+      "titre": "Leonida Verse — carte",
+      "url": "https://leonidaverse.com/en/gta-6-map",
+      "type": "communautaire",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "gtabase",
+      "titre": "GTABase — mécaniques",
+      "url": "https://www.gtabase.com/grand-theft-auto-6/",
+      "type": "communautaire",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "dot",
+      "titre": "Dot Esports — guide",
+      "url": "https://dotesports.com/gta/news/gta-6",
+      "type": "presse",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "vgtimes",
+      "titre": "VGTimes — actualités",
+      "url": "https://vgtimes.com/games/gta-6/news/",
+      "type": "presse",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "tracker",
+      "titre": "Tracker — sortie",
+      "url": "https://tracker.gg/gta6/release-date",
+      "type": "communautaire",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "endgame",
+      "titre": "Endgame Tools",
+      "url": "https://endgametools.com/en/gta-6/",
+      "type": "communautaire",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "gamesradar",
+      "titre": "GamesRadar — guide",
+      "url": "https://www.gamesradar.com/gta-6-guide/",
+      "type": "presse",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "leaks",
+      "titre": "Eldorado — fuites",
+      "url": "https://www.eldorado.gg/blog/grand-theft-auto-en/gta-6-leaks/",
+      "type": "fuites",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "redbull",
+      "titre": "Red Bull — aperçu gameplay",
+      "url": "https://www.redbull.com/au-en/gta-6-gameplay-details",
+      "type": "presse",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "reddit",
+      "titre": "Reddit r/GTA6 — discussion guide",
+      "url": "https://www.reddit.com/r/GTA6/comments/1r054vc/guide/",
+      "type": "forum",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "reddit_preload",
+      "titre": "Reddit — discussion débits",
+      "url": "https://www.reddit.com/r/gta6_official/comments/1xhp69k/how_long_will_it_take_you_to_preload_gta6/",
+      "type": "forum",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "youtube_tips",
+      "titre": "YouTube — conseils avant sortie",
+      "url": "https://www.youtube.com/watch?v=YMZ4gR2uUmc",
+      "type": "video_communautaire",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "youtube_mechanics",
+      "titre": "YouTube — mécaniques alléguées",
+      "url": "https://www.youtube.com/watch?v=DeFeDYE5P6w",
+      "type": "video_communautaire",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "github_map",
+      "titre": "GitHub — carte communautaire",
+      "url": "https://github.com/gta6map/gta6map.github.io",
+      "type": "code_communautaire",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "github_atlas",
+      "titre": "GitHub — GTA6 Atlas",
+      "url": "https://github.com/jerrysf/gta6-atlas",
+      "type": "code_communautaire",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "x",
+      "titre": "X — compte Rockstar",
+      "url": "https://x.com/rockstargames",
+      "type": "reseau_social_officiel",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "instagram",
+      "titre": "Instagram — compte Rockstar",
+      "url": "https://www.instagram.com/rockstargames/",
+      "type": "reseau_social_officiel",
+      "consulte_le": "2026-11-18"
+    },
+    {
+      "id": "reviews",
+      "titre": "VGTimes — critiques rapportées",
+      "url": "https://vgtimes.com/gaming-news/174990-gta-6-reviews-are-in-heres-how-critics-have-reacted-to-rockstar-games-long-awaited-game.html",
+      "type": "presse",
+      "consulte_le": "2026-11-18"
+    }
+  ],
+  "faits": [
+    {
+      "sujet": "sortie_et_plateformes",
+      "valeur": "19 novembre 2026 ; versions natives PS5 et Xbox Series X|S.",
+      "statut": "officiel",
+      "sources": [
+        "official_site",
+        "official_store"
+      ]
+    },
+    {
+      "sujet": "cloud_et_performance",
+      "valeur": "Cible 30 images/s ; Xbox Cloud Gaming sur Xbox One et Series X|S avec paramètres Series S ; PS5 Pro : PSSR et ombres ray-tracées.",
+      "statut": "officiel",
+      "sources": [
+        "official_preload"
+      ]
+    },
+    {
+      "sujet": "prechargement",
+      "valeur": "Préchargement ouvert depuis le 10 novembre aux précommandes numériques et codes en boîte reçus.",
+      "statut": "officiel",
+      "sources": [
+        "official_preload"
+      ]
+    },
+    {
+      "sujet": "physique",
+      "valeur": "Boîte avec code de téléchargement, sans disque ; expédition estimée au 12 novembre sur la boutique.",
+      "statut": "officiel",
+      "sources": [
+        "official_store"
+      ]
+    },
+    {
+      "sujet": "prix",
+      "valeur": "Standard 79,99 $ US ; Ultimate 99,99 $ US. ActuGaming rapporte respectivement 79,99 € et 99,99 € en France ; vérifier les boutiques et la région avant achat.",
+      "statut": "rapporte",
+      "sources": [
+        "dot",
+        "actu"
+      ]
+    },
+    {
+      "sujet": "bonus",
+      "valeur": "Pack Vintage Vice City pour les achats éligibles avant le 20 novembre ; conditions et stocks applicables.",
+      "statut": "officiel",
+      "sources": [
+        "official_store"
+      ]
+    },
+    {
+      "sujet": "protagonistes_et_synopsis",
+      "valeur": "Jason Duval et Lucia Caminos ; un coup qui tourne mal les entraîne dans une conspiration à Leonida. Jason a servi dans l’armée et travaille pour des trafiquants dans les Keys. Lucia a vécu à Liberty City et a été incarcérée au pénitencier de Leonida.",
+      "statut": "officiel",
+      "sources": [
+        "official_site",
+        "official_characters"
+      ]
+    },
+    {
+      "sujet": "secondaires",
+      "valeur": [
+        "Cal Hampton",
+        "Boobie Ike",
+        "Dre’Quan Priest",
+        "Real Dimez (Bae-Luxe et Roxy)",
+        "Raul Bautista",
+        "Brian Heder"
+      ],
+      "statut": "officiel",
+      "sources": [
+        "official_characters"
+      ]
+    },
+    {
+      "sujet": "regions",
+      "valeur": [
+        "Vice City",
+        "Leonida Keys",
+        "Grassrivers",
+        "Port Gellhorn",
+        "Ambrosia",
+        "Mount Kalaga National Park"
+      ],
+      "statut": "officiel",
+      "sources": [
+        "official_characters"
+      ]
+    },
+    {
+      "sujet": "ultimate",
+      "valeur": [
+        "Grotti Cheetah 1995",
+        "revolvers Hawk & Little Morgan",
+        "Shitzu Squalo",
+        "Vapid Dominator Buggy 1967",
+        "Rideout Customs",
+        "Sara’s Unisex Salon",
+        "Stock 305",
+        "Electric Fang Tattoo",
+        "One-Eyed Willie’s",
+        "Collection de voitures classiques"
+      ],
+      "statut": "officiel",
+      "sources": [
+        "official_editions"
+      ]
+    },
+    {
+      "sujet": "musique",
+      "valeur": "Justice compose le score original ; album du score annoncé pour le 11 décembre 2026, The Album pour le 19 novembre 2026.",
+      "statut": "officiel",
+      "sources": [
+        "official_music",
+        "official_trailer"
+      ]
+    },
+    {
+      "sujet": "radios_aperçus",
+      "valeur": [
+        "Cocoteo FM",
+        "Back Country",
+        "Afro Bank FM",
+        "The Chamber",
+        "Flash FM",
+        "Dirty South Classics"
+      ],
+      "statut": "officiel",
+      "sources": [
+        "official_music"
+      ]
+    },
+    {
+      "sujet": "police_et_vehicules",
+      "valeur": "Des aperçus de presse rapportent six étoiles et un système de carburant ; les règles exactes, seuils et stratégies en version finale restent à vérifier en jeu.",
+      "statut": "rapporte",
+      "sources": [
+        "redbull",
+        "gtabase"
+      ]
+    },
+    {
+      "sujet": "critique",
+      "valeur": "VGTimes rapporte un Metascore PS5 de 99 le 18 novembre ; résultat changeant, non vérifié directement sur Metacritic ; ne pas présenter comme définitif.",
+      "statut": "rapporte",
+      "sources": [
+        "vgtimes",
+        "reviews"
+      ]
+    }
+  ],
+  "conseils_prudents": [
+    {
+      "conseil": "Précharger après achat ou activation du code et vérifier l’espace disponible indiqué par sa console.",
+      "sources": [
+        "official_preload",
+        "dot"
+      ],
+      "statut": "conseil_general"
+    },
+    {
+      "conseil": "Régler commandes et accessibilité avant de commencer, puis prendre le temps de découvrir les routes de la première région.",
+      "sources": [
+        "beginner"
+      ],
+      "statut": "conseil_general"
+    },
+    {
+      "conseil": "Ne pas interpréter une carte fan comme la carte officielle : Leonida Verse précise que sa carte est imaginée avant sortie.",
+      "sources": [
+        "map_verse",
+        "map_state"
+      ],
+      "statut": "conseil_general"
+    },
+    {
+      "conseil": "Éviter les fausses astuces, les cheats non vérifiés et les promesses de gains rapides ; attendre des démonstrations fiables du jeu final.",
+      "sources": [
+        "endgame"
+      ],
+      "statut": "conseil_general"
+    }
+  ],
+  "points_a_verifier": {
+    "missions": "Nombre, titres, solutions, récompenses et fins : aucun inventaire complet fiable vérifié.",
+    "armes_et_vehicules": "Éditions et certains objets nommés sont officiels ; bases, statistiques, prix en jeu et localisations complètes restent à vérifier individuellement.",
+    "carte": "Cartes de fans reconstruites ou imaginées ; coordonnées et collectibles ne sont pas systématiquement authentifiés. Les ratios de superficie proviennent de sources secondaires ; aucune mesure officielle vérifiée ici.",
+    "cheats": "Aucun code officiel PS5/Xbox vérifié ici ; effet sur trophées non établi.",
+    "online": "Ne pas transposer GTA Online au nouvel épisode ; modes, économie et date restent à confirmer officiellement.",
+    "easter_eggs_trophees_collectibles": "Pas de liste complète fiable validée dans cette recherche.",
+    "personnages": "Les personnages listés par une carte explicitement imaginée ne sont pas tous confirmés ; retour de Phil Cassidy non vérifié.",
+    "pc": "Aucune date de sortie PC confirmée dans les sources officielles consultées ; début 2027 reste spéculatif.",
+    "histoire_de_la_serie": "Ne pas dire première femme jouable de toute la série : préciser première protagoniste féminine depuis le passage à la 3D.",
+    "prix": "Les prix varient selon pays et boutique ; confirmer directement sur la plateforme avant publication.",
+    "video_et_social": "Résultats YouTube et X indexés consultés ; aucune transcription intégrale des vidéos ni accès exhaustif aux publications Instagram ; ne pas en déduire des preuves de gameplay.",
+    "accessibilite": "GamesRadar a retourné principalement son interface ; Eldorado a redirigé vers une URL incohérente ; aucune extraction exhaustive.",
+    "actualisation": "Fichier statique, daté, non mis à jour automatiquement ; revoir après lancement et avant chaque publication."
+  },
+  "prochaine_etape": "S2 : système visuel et images JPG, dans les limites annoncées.",
+  "veille_s2": {
+    "date": "2026-11-18",
+    "sources": [
+      {
+        "type": "presse",
+        "url": "https://www.videogameschronicle.com/review/grand-theft-auto-6/",
+        "note": "Test rapportant 5/5 ; avis de presse et éléments de gameplay, sans test personnel."
+      },
+      {
+        "type": "presse",
+        "url": "https://www.forbes.com/sites/paultassi/2026/11/18/grand-theft-auto-6-review-a-perfect-crime/",
+        "note": "Test avec recommandations, à croiser avant publication."
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Qqzj-j4qk0E",
+        "note": "Bande-annonce publiée par PlayStation ; pas de transcription complète vérifiée."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/navanem/gta6-leonida-atlas",
+        "note": "Atlas communautaire ; licence AGPL-3.0 à examiner avant toute réutilisation."
+      },
+      {
+        "type": "reddit",
+        "url": "https://www.reddit.com/r/gta6_official/",
+        "note": "Résultats indexés de discussions ; aucun conseil de gameplay vérifié."
+      },
+      {
+        "type": "reseau_social",
+        "url": "https://x.com/rockstargames",
+        "note": "Préchargement et lancement relayés par le compte officiel."
+      }
+    ],
+    "prudence": "Sources indexées non exhaustives ; ne pas assimiler une critique, vidéo ou carte communautaire à un test personnel ou à une carte officielle."
+  },
+  "veille_s3": {
+    "date": "2026-11-18",
+    "sources": [
+      {
+        "type": "officiel",
+        "url": "https://www.rockstargames.com/VI",
+        "note": "Date et plateformes, bandes-annonces et communiqués."
+      },
+      {
+        "type": "presse",
+        "url": "https://www.videogameschronicle.com/review/grand-theft-auto-6/",
+        "note": "Critique publiée le 18 novembre ; évaluation et détails attribués à la rédaction."
+      },
+      {
+        "type": "presse",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/11/18/grand-theft-auto-6-launches-to-rave-reviews-over-15-billion-in-estimated-pre-sales/",
+        "note": "Déploiement international et premiers tests rapportés."
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=8u_lV1LQr1Q",
+        "note": "Résultat indexé pour bande-annonce ; lecteur officiel Rockstar préféré."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/navanem/gta6-leonida-atlas",
+        "note": "Dépôt communautaire ; licence AGPL et attribution des données à vérifier avant réemploi."
+      },
+      {
+        "type": "reddit",
+        "url": "https://www.reddit.com/r/gta6_official/",
+        "note": "Recherche indexée : discussions communautaires, aucun guide validé personnellement."
+      },
+      {
+        "type": "x",
+        "url": "https://x.com/rockstargames",
+        "note": "Compte officiel : préchargement et lancement."
+      }
+    ],
+    "limites": "Veille ponctuelle, non actualisée automatiquement ; résultats indexés et contenus sociaux incomplets."
+  },
+  "s4_groupe1": {
+    "date": "2026-11-18",
+    "pages": [
+      "pages/histoire/index.html",
+      "pages/personnages/index.html",
+      "pages/carte/index.html"
+    ],
+    "sources": [
+      "https://www.rockstargames.com/VI/only-in-leonida (officiel : profils et descriptions des régions)",
+      "https://www.rockstargames.com/newswire/article/517572321a549a/watch-the-grand-theft-auto-vi-launch-trailer (officiel)",
+      "https://www.rockstargames.com/newswire/article/89834o94713o21 (officiel : préchargement)",
+      "https://x.com/rockstargames/status/1918265468076605706?amp= (officiel : annonce du 2 mai 2025)",
+      "https://x.com/rockstargames/status/1986540361011880167 (officiel : report au 19 novembre 2026)",
+      "https://www.videogameschronicle.com/review/grand-theft-auto-6/ (presse : relation, missions)",
+      "https://timesaver.gg/blog/gta-6-delay (presse : propos du PDG de Take-Two cités)",
+      "https://gta-6-wiki.com/characters/cal-hampton (tiers)",
+      "https://gtaculture.com/guides/gta-6-map (tiers : régions et statut de la carte)",
+      "https://www.gtaboss.gg/gta-6/guides/gta-6-map (tiers : lieux)",
+      "https://leonidaverse.com/en/gta-6-map (communauté : carte imaginée, non réutilisée)",
+      "https://github.com/navanem/gta6-leonida-atlas (GitHub : AGPL-3.0, données CC BY 4.0, non réutilisées)",
+      "https://www.reddit.com/r/GTA/comments/1qr1c13/ (Reddit : spéculations, non utilisées comme faits)"
+    ],
+    "limites": [
+      "Carte officielle non publiée ; taille inconnue.",
+      "Relation et fins : mécaniques rapportées par la presse, à vérifier en jeu.",
+      "Les rumeurs de fuite ne sont pas reprises comme faits.",
+      "Les scores d’agrégateurs changent et ne sont pas vérifiés directement."
+    ]
+  },
+  "s4_groupe2": {
+    "date": "2026-11-18",
+    "pages": [
+      "pages/armes/index.html",
+      "pages/vehicules/index.html",
+      "pages/gameplay/index.html"
+    ],
+    "sources": [
+      "https://www.rockstargames.com/VI/only-in-leonida (officiel : fusil, airboat)",
+      "https://mapdex.io/gta-6/weapons (tiers : armes, 29 juillet 2026)",
+      "https://overgear.com/guides/gta-6/vehicles-and-cars-guide/ (presse : véhicules nommés, 17 nov.)",
+      "https://gtaintel.com/news/gta-6-all-confirmed-cars-list (tiers : comptage)",
+      "https://www.videogameschronicle.com/review/grand-theft-auto-6/ (presse : Focus, profil criminel)",
+      "https://finalweapon.net/2026/11/18/grand-theft-auto-vi-review/ (presse : Focus, heat, étoiles)",
+      "https://playday.one/2026/11/18/grand-theft-auto-6-review/ (presse : conseils, baisse de recherche)",
+      "https://www.playstationlifestyle.net/review/939293-grand-theft-auto-6-review-ps5-the-most-ambitious-video-game-ever (presse)",
+      "https://www.youtube.com/watch?v=rY4P_xz5L-0 et https://www.youtube.com/watch?v=RJyWOPG8D10 (YouTube : titres seulement, non visionnés)"
+    ],
+    "rejetees": [
+      "Codes de triche (sources non officielles)",
+      "Conseils de bourse et paquets cachés (recyclés de GTA V, non vérifiés)",
+      "Totaux d’armes et de véhicules non sourcés (16, 30, 49 ; 155 à 320)"
+    ],
+    "limites": [
+      "Nombre de véhicules et d’armes non publié par Rockstar.",
+      "Mécaniques de presse à vérifier en jeu (Focus, étoiles, profil criminel).",
+      "Reddit : peu de conseils datés et vérifiables trouvés pendant cette veille."
+    ]
+  },
+  "s4_groupe3": {
+    "date": "2026-11-18",
+    "pages": [
+      "pages/guide/index.html",
+      "pages/online/index.html",
+      "pages/collectibles/index.html"
+    ],
+    "sources": [
+      "https://www.rockstargames.com/VI (officiel)",
+      "https://www.rockstargames.com/VI/editions (officiel : Classic Car Collection, bonus)",
+      "https://www.rockstargames.com/newswire/article/89834o94713o21 (officiel : préchargement)",
+      "https://gameverse.app/blog/gta-6-multiplayer (tiers : statut en ligne)",
+      "https://shattered.io/gta-6-online-q1-2027-report-zero-rockstar-dates/ (tiers : rapports 2027)",
+      "https://www.notebookcheck.net/Leak-says-GTA-6-story-takes-50-hours-to-complete-and-PS5-platinum-trophy-200-hours.1450952.0.html (fuite rapportée : durée)",
+      "https://grandtheft.gg/gta-6-beginner-guide (tiers : conseils, carte annoncée non vérifiée)",
+      "https://gta6bible.com/will-gta-6-have-collectibles-everything-we-know/ (presse : collectibles rapportés)",
+      "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-collectible-locations-what-to-know/ (tiers : statut non confirmé)"
+    ],
+    "rejetees": [
+      "Compteurs de collectibles calculés à partir de GTA V (≈100 paquets, ≈50 scraps, etc.)",
+      "Cheat codes et listes de localisations non vérifiées",
+      "Conseils recyclés de GTA V (paquets cachés, bourse, propriétés) non sourcés pour GTA VI"
+    ],
+    "limites": [
+      "Aucune liste officielle de collectibles.",
+      "Mode en ligne : aucune date officielle.",
+      "Durée de jeu : estimations de presse et fuites, non confirmées par Rockstar.",
+      "Carte gratuite annoncée par un guide, non trouvée sur les pages officielles consultées."
+    ]
+  },
+  "s4_groupe4": {
+    "date": "2026-11-18",
+    "pages": [
+      "pages/secrets/index.html",
+      "pages/editions/index.html",
+      "pages/soundtrack/index.html"
+    ],
+    "sources": [
+      "https://www.rockstargames.com/VI/music (officiel : radio, album 34 titres, partition 30 titres au 11 décembre)",
+      "https://store.rockstargames.com/fr/game/buy-gta-vi (officiel : prix Standard 79,99 $, bonus, boîte avec code)",
+      "https://www.rockstargames.com/VI/editions (officiel)",
+      "https://timesaver.gg/blog/gta-6-ultimate-edition-vs-standard-2026 (presse : prix Ultime 99,99 $, tiers)",
+      "https://tech-insider.org/gta-6-editions-standard-vs-ultimate-vs-vice-city-box-2026/ (presse : mise à niveau 20 $)",
+      "https://www.exhibit.tech/gaming/all-the-little-details-fans-have-noticed-about-gta-vi/ (observations de fans)",
+      "https://vicecityplay.com/gta-6-easter-eggs-official-references-explained-2026/ (tiers : références non confirmées)",
+      "https://endgametools.com/en/gta-6/news/gta-6-original-score-justice (tiers)"
+    ],
+    "rejetees": [
+      "Listes de « 18 easter eggs confirmés » et coordonnées de secrets (non vérifiés)",
+      "Liste d’éditions attribuée aux deux éditions sans séparation (extraction de la boutique identique pour les deux)",
+      "Partition « 50 titres » listée par des plateformes (non confirmée par Rockstar)"
+    ],
+    "limites": [
+      "Aucune liste officielle de secrets.",
+      "Prix d’édition US seulement ; prix européens non relevés.",
+      "Mise à niveau à 20 $ rapportée par la presse, non vérifiée sur la boutique.",
+      "Les 24 autres titres de l’album ne sont pas listés sur la page officielle consultée."
+    ]
+  },
+  "s4_groupe5": {
+    "date": "2026-11-18",
+    "pages": [
+      "pages/news/index.html",
+      "pages/quiz/index.html"
+    ],
+    "sources": [
+      "https://www.rockstargames.com/newswire (officiel : liste des annonces, consultée le 18 nov.)",
+      "https://www.rockstargames.com/newswire/article/89834o94713o21 (officiel : préchargement, 30 i/s)",
+      "https://www.rockstargames.com/newswire/article/o39o87a435a25a/grand-theft-auto-vi-the-festival (officiel)",
+      "https://www.gadgets360.com/games/news/gta-6-review-roundup-highest-rated-game-of-all-time-metacritic-ocarina-of-time-rockstar-games-12344575 (presse : scores)",
+      "https://endgametools.com/en/gta-6/news/gta-6-out-now (tiers : déverrouillage par pays)",
+      "https://tech.yahoo.com/gaming/articles/fact-check-fake-rockstar-games-032634165.html (vérification : fausse lettre 2027)",
+      "https://www.forbes.com/sites/brianmazique/2026/11/09/rockstar-is-throwing-a-gta-6-festival-with-travis-scott-and-cardi-b-but-money-alone-wont-get-you-in/ (presse : The Festival)",
+      "https://www.implicator.ai/gta-vi-review-unparalleled-technical-comedic-masterpiece/ (presse : performances)"
+    ],
+    "limites": [
+      "Scores Metacritic et OpenCritic : valeurs différentes selon les sources et l’heure.",
+      "Chiffres de précommandes : estimations divergentes (1,1 à 1,5 milliard $ selon les sources).",
+      "Affirmations sur les performances PS5 Pro (PSSR, ombres) : communication citée par la presse, non vérifiée directement.",
+      "Le quiz est un contenu statique : l’interactivité avancée est prévue à l’étape S5."
+    ]
+  },
+  "s5_interactions": {
+    "date": "2026-11-18",
+    "livrables": [
+      "assets/js/site.js (entrée)",
+      "assets/js/search.js (recherche globale, dialogue natif, raccourci /)",
+      "assets/js/filters.js (filtres Officiel/Presse/Communauté/Rumeur)",
+      "assets/js/atlas.js + assets/data/atlas.json (carte conceptuelle, six régions)",
+      "assets/js/checklist.js (checklist persistante, export/import JSON, réinitialisation)",
+      "assets/css/interactions.css",
+      "scripts/build_search_index.py -> assets/data/search-index.json",
+      "pages/guide : section checklist « Préparer le lancement »",
+      "pages/carte : correction sur la carte officielle annoncée pour le 19 nov."
+    ],
+    "recherches_communaute": {
+      "reddit": [
+        "r/GTA6 « Day 1 of GTA 6 - Your plan? » (habitudes des joueurs, pas de faits)",
+        "r/GTA « What’s the first thing you are doing as soon as you load into GTA 6? » (juil. 2026)"
+      ],
+      "youtube": [
+        "« 106 Tips & Tricks for GTA 6 » (12 nov. 2026) : titre seulement, non visionné, non utilisé",
+        "« 30 Things You NEED To Know Before Playing GTA 6 » (14 nov. 2026) : titre seulement, non utilisé"
+      ],
+      "github": [
+        "jerrysf/gta6-atlas : idée d’une checklist localStorage avec export/import JSON ; code non copié, licence non vérifiée",
+        "navanem/gta6-leonida-atlas : AGPL-3.0 et données CC BY 4.0 ; idée seulement, ni code ni données repris"
+      ],
+      "forums": [
+        "GTAForums « Mapless navigation » (juil. 2026) : débat minimap/boussole, opinions uniquement",
+        "GTAForums « Mapping Vice City » (oct. 2026) : fil de cartographie communautaire, non utilisé"
+      ],
+      "reseaux_et_presse": [
+        "Rolling Out (8 nov. 2026) : conseils anti-spoilers, reflétés dans la checklist comme conseils de presse"
+      ],
+      "non_retenus": [
+        "Listes de complétion à 100 % datées du 18 nov. 2026 (gtabase, powerpyx) : totaux et localisations non sourcés et contradictoires entre elles ; non repris"
+      ]
+    },
+    "sources_officielles": [
+      "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10 (3 nov. 2026 : carte et affiche imprimables le 19 nov. ; pré-chargement ; 212 Go)"
+    ],
+    "verifications": [
+      "Navigateur Chromium (Playwright) : 15 pages sans erreur JavaScript ; recherche, filtres, carte, persistance, export, import, réinitialisation testés",
+      "En-tête : aucun débordement horizontal à 375, 768, 1024 et 1280 px"
+    ],
+    "limites": [
+      "Positions des six régions : indicatives sur une image IA, non géographiques.",
+      "Seules les six régions et Allied Crystal sont positionnées ; les autres lieux restent dans la liste.",
+      "Sur un champ de recherche, Échap efface d’abord le texte (comportement natif du navigateur).",
+      "La checklist est locale au navigateur ; aucun compte ni synchronisation."
+    ]
+  },
+  "s6_qa": {
+    "date": "2026-11-18",
+    "controles": [
+      "Liens internes, ancres, images et ressources : aucun lien cassé sur 15 pages",
+      "Textes alternatifs : toutes les images en ont un",
+      "Titres de 31 à 46 caractères ; descriptions et og:title présents",
+      "axe-core 4 (Chromium) : 0 violation sur 15 pages après corrections (logo, contraste boutons roses et numéros de cartes)",
+      "Débordement horizontal : 0 à 375, 768, 1024 et 1280 px",
+      "Fonctions S5 testées en navigateur : recherche, filtres, carte, checklist (persistance, export, import, réinitialisation) ; 0 erreur JavaScript"
+    ],
+    "corrections": [
+      "Nom accessible du logo corrigé sur toutes les pages",
+      "Contraste des boutons roses et des numéros de cartes renforcé",
+      "Balise canonique ajoutée (scripts/build_seo.py)",
+      "sitemap.xml et robots.txt générés"
+    ],
+    "a_faire_avant_mise_en_ligne": [
+      "Relancer python3 scripts/build_seo.py avec le vrai domaine (valeur actuelle : https://example.com/)"
+    ],
+    "recherches_communaute": {
+      "reddit": [
+        "r/RTINGS et r/PS5pro (13–14 nov. 2026) : 30 fps verrouillé, interpolation et VRR ; avis et réglages TV, non officiels",
+        "r/GTA6 (août 2026) : débat 30 fps, opinions"
+      ],
+      "social_et_presse": [
+        "Sportskeeda (18 nov.) et DigitBin (16 nov.) : Mode performance sans effet à 30 fps ; VRR et 120 Hz sans effet attendu ; à noter comme conseils, non vérifiés"
+      ],
+      "youtube": [
+        "Titres seulement : « 6 Things You NEED to Do Before GTA 6 » ; « How to Make Money Clipping GTA 6 » : non visionnés, non utilisés"
+      ],
+      "github": [
+        "vaibhavsant230399/GTA-6, shiestyslime/gtasixmissions, VRTomsky/gta6-website : sites fan statiques ; exemples d’organisation, aucun code repris"
+      ]
+    },
+    "limites": [
+      "Les conseils écran (VRR, interpolation, mode performance) sont des avis communautaires : non inclus dans les pages."
+    ]
+  },
+  "s7_livraison": {
+    "date": "2026-11-18",
+    "livrables": [
+      "README.md (présentation, structure, politique de sources, tests, mise à jour, limites, English summary)",
+      "DEPLOIEMENT.md (GitHub Pages, Netlify/Cloudflare Pages, Nginx, domaine, vérifications, dépannage)",
+      "404.html",
+      ".nojekyll",
+      "package.json (scripts build:index, build:seo, build)"
+    ],
+    "recherches_communaute": {
+      "github_pages": [
+        "Guides de déploiement GitHub Pages (2026) : dépôt public pour un site de projet, CNAME, enregistrements DNS, Enforce HTTPS ; intégrés à DEPLOIEMENT.md"
+      ],
+      "reddit": [
+        "r/GTA6 (oct. 2026) : charge serveurs et précharge ; avis, non utilisés comme fait",
+        "r/videogames (13 nov. 2026) : idem"
+      ],
+      "social_et_presse": [
+        "Ofzen & Computing (16 nov.) : checklist de lancement ; contient une date de précharge au 12 nov. erronée : non reprise (Rockstar : 10 nov.)"
+      ],
+      "youtube": [
+        "Titres seulement : « 20 Things To Do FIRST In GTA 6 » ; « 25 Things You MUST Do Before GTA 6 Launches » : non visionnés"
+      ]
+    },
+    "verifications": [
+      "Liens internes et ressources : aucun cassé (y compris 404.html)",
+      "axe-core : 0 violation sur 15 pages",
+      "Navigateur : 0 erreur JavaScript ; recherche, filtres, carte, checklist OK",
+      "Aucun chemin absolu ; sites relatifs ; aucun SVG, PNG, ZIP ou PDF"
+    ],
+    "a_faire_par_l_utilisateur": [
+      "Choisir le domaine réel et relancer : python3 scripts/build_seo.py https://VOTRE-DOMAINE/",
+      "Créer le dépôt ou l’hébergement, puis suivre DEPLOIEMENT.md",
+      "Revérifier les faits le 19 nov. 2026 (sortie)"
+    ]
+  },
+  "veille_s7_2026_11_18": {
+    "date": "2026-11-18",
+    "portee": "Recherches web : presse, Reddit r/GTA6 et r/PS5, YouTube (titres), GitHub (dépôts), réseaux sociaux (rapportés par la presse).",
+    "faits_officiels_confirmes": [
+      "Pré-chargement ouvert le 10 novembre 2026 (PS5 à minuit heure locale ; Xbox Series X|S à 0 h GMT) - Newswire Rockstar, 3 nov. 2026, relayée par Push Square et Gamerbolt.",
+      "Taille : jusqu'à 212 Go selon l'appareil - Rockstar.",
+      "Carte de Leonida et affiche de couverture imprimables, téléchargement gratuit sur le site officiel le 19 nov. 2026 ; affiche double face à 0,99 $ sur le Rockstar Store après le lancement - Newswire Rockstar, 3 nov. 2026 (Push Square, Meristation).",
+      "Boîte avec code : en vente à partir du 12 nov., sans disque, carte non incluse dans la boîte - Newswire / presse.",
+      "Pré-lancement : aucune note de mise à jour publiée par Rockstar pour 1.002.000 (13 nov.) et 01.002.001 (16 nov.) - presse et dataminers, Forbes (16 nov.), Make Tech Easier (17 nov.)."
+    ],
+    "informations_rapportees_non_confirmees": [
+      "Déverrouillage plus tôt sur certaines boutiques américaines (Forbes relayé par Neonsect) - non vérifié par Rockstar.",
+      "Liste de 16 armes « confirmées » : Rockstar n'a publié aucun total ; les listes relayées mélangent captures, rumeurs et fuites.",
+      "Noms d'armes attribués par la communauté (Duke Carbine, Mini Uzi, etc.) : non officiels.",
+      "Dépôts GitHub « build », « leak » ou « source code » : non vérifiables ; avertissement, aucun lien de téléchargement sur le site.",
+      "Live YouTube de 24 h à partir de minuit ET le 19 novembre (Make Tech Easier, 17 nov.)."
+    ],
+    "conseils_communautaires_non_testes": [
+      "Brancher la console en Ethernet pour le téléchargement (guides de lancement, tiers).",
+      "Garder de l'espace disque libre pour le patch du premier jour (guides, tiers).",
+      "Limiter les spoilers (filtres de mots-clés, groupes sans spoilers) - conseils de presse.",
+      "Argent : déposer au distributeur, vendre le butin à un receleur, éviter les voitures de luxe en début de jeu (TechWiser 18 nov., D3Game 13 nov.).",
+      "Police : changer de tenue et de véhicule, ranger l’arme, séparer Jason et Lucia (alcasthq, 18 nov.) ; aperçu joué résumé sur Reddit (5 sept.) : Focus révèle la police, indicateurs de chaleur."
+    ],
+    "sources": [
+      "https://www.pushsquare.com/news/2026/11/gta-6-ps5-file-size-confirmed-to-be-212gb-physical-map-available-but-not-in-boxed-copies",
+      "https://en.as.com/meristation/news/its-official-the-gta-6-map-will-be-free-and-will-also-be-available-in-a-physical-edition-for-less-than-a-dollar-f202611-n/",
+      "https://www.gamerbolt.com/gta-6-preload-guide/",
+      "https://neonsect.com/gta-6/gta-6-file-size-preload/",
+      "https://boostingmarket.com/blogs/gta-6-release-time/",
+      "https://github.com/GTA-6-Leaked/.github",
+      "https://github.com/SupervisorRevere/build-gta6-2026",
+      "https://www.reddit.com/r/GTA6/comments/1q4sum8/whats_your_plan_to_make_the_most_out_of_gta_vi/",
+      "https://www.sportskeeda.com/gta/unhinged-ways-gamers-preparing-gta-6",
+      "https://gta.tech4gamers.com/gta-6/weapons/hawk-little-morgan-revolvers/",
+      "https://gtadb.net/gta-6/weapons/girardi-es9-gta-6/",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-weapons/",
+      "https://www.forbes.com/sites/erikkain/2026/11/16/gta-6-release-date-time-ps5-xbox-series-x-download-size-day-one-update/",
+      "https://maketecheasier.com/gta-6-youtube-24-hour-stream/",
+      "https://techwiser.com/gta-6-all-ways-make-money/",
+      "https://www.d3game.net/2026/11/13/gta-6-complete-beginners-guide-essential-tips-and-mechanics-to-know-before-playing/",
+      "https://tech.yahoo.com/gaming/articles/gta-6-just-got-second-235301219.html",
+      "https://alcasthq.com/gta-6-wanted-level/",
+      "https://www.reddit.com/r/GTA6/comments/1w7ow99/my_entire_gta_6_preview_summarized/",
+      "https://www.youtube.com/watch?v=ycKGI--sivc"
+    ],
+    "a_verifier": [
+      "Les conseils de début de jeu issus d'articles SEO ne sont pas testés ; les affirmations sur des bugs de l'intro ou une perte de progression n'ont pas été reprises."
+    ]
+  },
+  "veille_finale_2026_11_18": {
+    "ps5_mise_a_jour": "Sony PS Support confirme une mise à jour système PS5 obligatoire, version 26.07-14.23.00 (corrections de sécurité). Taille 1,267 Go relevée par IGN, non publiée par Sony. Remplace les mentions 1.002.000 et 01.002.001 pour l’affichage du guide.",
+    "critiques": "Metacritic environ 99, OpenCritic 98-99 au 18 novembre 2026 ; valeurs variables selon l’heure et le nombre de critiques.",
+    "nouvelle_zelande": "Déverrouillage anticipé rapporté en Nouvelle-Zélande le 18 novembre à 6 h ET (presse) ; méthode déconseillée.",
+    "sources": [
+      "https://www.theverge.com/games/1036395/if-you-want-to-play-gta-vi-on-ps5-tonight-download-yesterdays-firmware-update-first",
+      "https://www.ibtimes.co.uk/gta-6-update-ps5-players-who-preloaded-200-gb-must-still-download-1267-gb-firmware-update-first-1833205",
+      "https://outputlag.com/featured-slider/gta-6-review-roundup/",
+      "https://stealthygaming.com/gta-6-reviews/",
+      "https://www.theleonidascene.com/avoid-gta-6-spoilers-youtube-tiktok-reddit/"
+    ]
+  }
+}
